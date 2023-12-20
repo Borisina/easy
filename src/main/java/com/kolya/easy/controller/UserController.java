@@ -5,7 +5,9 @@ import com.kolya.easy.model.User;
 import com.kolya.easy.repo.PostRepository;
 import com.kolya.easy.repo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
