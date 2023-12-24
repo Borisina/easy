@@ -8,6 +8,7 @@ import java.util.List;
 
 @Data
 @Entity
+@JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Post {
     @Id
